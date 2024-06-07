@@ -7,7 +7,7 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 llm = ChatGoogleGenerativeAI(model="gemini-pro",
                              verbose = True,
                              temperature = 0.5,
-                             google_api_key="AIzaSyCmZOGrEA5wTyeTg_a6gDsphZpCVnPl37k")
+                             google_api_key="")
 
 # import os
 # os.environ["OPENAI_API_KEY"] = os.getenv("OPENAI_API_KEY")
